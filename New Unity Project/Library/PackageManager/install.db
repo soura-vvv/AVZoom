@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.meta.xr.sdk.audio": {
+      "tarball": {
+        "hash": "3b73cf4bd782",
+        "mtime": 1695843168009,
+        "size": 9142850,
+        "localPath": "G:\\DownloadsNew\\com.meta.xr.sdk.audio-56.0.0-preview.tgz"
+      }
+    }
+  }
+}

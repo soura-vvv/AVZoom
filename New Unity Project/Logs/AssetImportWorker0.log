@@ -1,0 +1,1233 @@
+Using pre-set license
+Built from '2022.2/release' branch; Version is '2022.2.3f1 (55531d7fa82e) revision 5591837'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16226 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/soura/wkspaces/AudioVisualZoom/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53035
+Successfully changed project path to: C:/Users/soura/wkspaces/AudioVisualZoom/New Unity Project
+C:/Users/soura/wkspaces/AudioVisualZoom/New Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12500] Host "[IP] 10.15.6.63 [Port] 0 [Flags] 2 [Guid] 2700167786 [EditorId] 2700167786 [Version] 1048832 [Id] WindowsEditor(7,Souravvv) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12500] Host "[IP] 10.15.6.63 [Port] 0 [Flags] 2 [Guid] 2700167786 [EditorId] 2700167786 [Version] 1048832 [Id] WindowsEditor(7,Souravvv) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 17.54 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 1.26 ms.
+Initialize engine version: 2022.2.3f1 (55531d7fa82e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/soura/wkspaces/AudioVisualZoom/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011660 seconds.
+- Loaded All Assemblies, in  0.588 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.400 seconds
+Domain Reload Profiling:
+	ReloadAssembly (320ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+				TypeCache.Initialize (258ms)
+					TypeCache.ScanAssembly (256ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\soura\wkspaces\AudioVisualZoom\New Unity Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\soura\wkspaces\AudioVisualZoom\New Unity Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.951 seconds
+Refreshing native plugins compatible for Editor in 9.48 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <0da48681ced7494d83ae6a612d2206fc>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <0da48681ced7494d83ae6a612d2206fc>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <0da48681ced7494d83ae6a612d2206fc>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <83719566e1474cd8800c02cd178db127>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.947 seconds
+Domain Reload Profiling:
+	ReloadAssembly (236ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		LoadAllAssembliesAndSetupDomain (712ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (668ms)
+				TypeCache.Initialize (372ms)
+					TypeCache.ScanAssembly (368ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (735ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (583ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 8.41 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 4179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (71.4 KB). Loaded Objects now: 4639.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 5.012700 ms (FindLiveObjects: 0.735000 ms CreateObjectMapping: 0.518400 ms MarkObjects: 3.654600 ms  DeleteObjects: 0.103500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 493040.022309 seconds.
+  path: Assets/SAL/S45_2/DHL_RIR.wav
+  artifactKey: Guid(f888bf25ca7a6874a814563c86186347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S45_2/DHL_RIR.wav using Guid(f888bf25ca7a6874a814563c86186347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815bacf4dd1b303eec196ccefc3650ae') in 0.118164 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005597 seconds.
+  path: Assets/SAL/S-60_1/XM4_RIR.wav
+  artifactKey: Guid(4d5f32681fc634549a4401c37af806b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-60_1/XM4_RIR.wav using Guid(4d5f32681fc634549a4401c37af806b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383e8f0c9353188919c9f1ece6af7a26') in 0.013032 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006346 seconds.
+  path: Assets/SAL/S-60_1/DHL_RIR.wav
+  artifactKey: Guid(65b814bca48b7154880639b099b3923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-60_1/DHL_RIR.wav using Guid(65b814bca48b7154880639b099b3923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff4013868a03d7b2ac524a06b982d7f') in 0.010895 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016907 seconds.
+  path: Assets/SAL/S-45_2/XM4_RIR.wav
+  artifactKey: Guid(234f1f08c699eec4eb61197b4cab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-45_2/XM4_RIR.wav using Guid(234f1f08c699eec4eb61197b4cab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb2dd017feeaa63d1454a033236ea51') in 0.011066 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007385 seconds.
+  path: Assets/SAL/S-90_1/XM2_RIR.wav
+  artifactKey: Guid(960635873b7995e4496761e7183eeaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-90_1/XM2_RIR.wav using Guid(960635873b7995e4496761e7183eeaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0108c35dcab55fededba4fac724fcf66') in 0.011559 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024564 seconds.
+  path: Assets/SAL/S90_1
+  artifactKey: Guid(465ce155a703785418d04a51ebbbd6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S90_1 using Guid(465ce155a703785418d04a51ebbbd6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846eb8ecb888aed1e6c056fb6d70c9a7') in 0.007389 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005150 seconds.
+  path: Assets/SAL/S60_1/DHL_RIR.wav
+  artifactKey: Guid(2bdf746d34a49d543847c09c235a72b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S60_1/DHL_RIR.wav using Guid(2bdf746d34a49d543847c09c235a72b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6cec59ec75964f62510047be3513aa') in 0.010227 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006660 seconds.
+  path: Assets/SAL/S-45_2/BTELF_RIR.wav
+  artifactKey: Guid(ed329cf85be1cf64dbbcaa2f867e7c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-45_2/BTELF_RIR.wav using Guid(ed329cf85be1cf64dbbcaa2f867e7c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4e3d367fb8b8feb0e8e0203fce4613') in 0.010899 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006611 seconds.
+  path: Assets/SAL/S-30_1/BTERB_RIR.wav
+  artifactKey: Guid(122b2af9a324d3246b006c121ba92a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-30_1/BTERB_RIR.wav using Guid(122b2af9a324d3246b006c121ba92a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c236675ff9fb62264a7f640c417aca34') in 0.011539 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006322 seconds.
+  path: Assets/SAL/S60_1/BTERB_RIR.wav
+  artifactKey: Guid(11460d773021e534f8dffcf98940ee0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S60_1/BTERB_RIR.wav using Guid(11460d773021e534f8dffcf98940ee0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32ffba77ba7240bb6a753f21d3a1d05') in 0.010438 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011648 seconds.
+  path: Assets/SAL/S60_1/XM4_RIR.wav
+  artifactKey: Guid(80e0b6b20dd0b7340bceac274f0be820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S60_1/XM4_RIR.wav using Guid(80e0b6b20dd0b7340bceac274f0be820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5ba603a97b552dc014da6e25d60092') in 0.010651 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018560 seconds.
+  path: Assets/SAL/S0_1/DHL_RIR.wav
+  artifactKey: Guid(4710ce1b2e748c84088f369e289785a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S0_1/DHL_RIR.wav using Guid(4710ce1b2e748c84088f369e289785a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f4090e7e3042f65e21a49a72e6157b') in 0.010493 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013595 seconds.
+  path: Assets/SAL/S-45_2
+  artifactKey: Guid(624125504c04b2b4d801a11f513e2c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-45_2 using Guid(624125504c04b2b4d801a11f513e2c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3851b0030b4ff5a588704363453bf9') in 0.007594 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005768 seconds.
+  path: Assets/SAL/S-90_1/BTERB_RIR.wav
+  artifactKey: Guid(3f4eb6765c887c54d8f931513e4134db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-90_1/BTERB_RIR.wav using Guid(3f4eb6765c887c54d8f931513e4134db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73f1ac04c7ce7cb4c5740c812ffdee6') in 0.010524 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005533 seconds.
+  path: Assets/SAL/S60_1/XM2_RIR.wav
+  artifactKey: Guid(3ebad118eddb13d4bba9c207db3b721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S60_1/XM2_RIR.wav using Guid(3ebad118eddb13d4bba9c207db3b721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc10c4f0b9b2fbce9d939fbd3ae0449e') in 0.010303 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005870 seconds.
+  path: Assets/SAL/S30_1/XM5_RIR.wav
+  artifactKey: Guid(7301995a1197fdf41b2b49d596818368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S30_1/XM5_RIR.wav using Guid(7301995a1197fdf41b2b49d596818368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac63ec49e98083d984ffb6817dfb2f3') in 0.011404 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007528 seconds.
+  path: Assets/SAL/S60_1/BTELF_RIR.wav
+  artifactKey: Guid(84c34540153066945a101a9d3d46d114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S60_1/BTELF_RIR.wav using Guid(84c34540153066945a101a9d3d46d114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b210f1466c2d0e591eae3b0935160112') in 0.010700 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006034 seconds.
+  path: Assets/SAL/S-45_2/BTERB_RIR.wav
+  artifactKey: Guid(35c71966975079a4cb55ffade9ed47e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-45_2/BTERB_RIR.wav using Guid(35c71966975079a4cb55ffade9ed47e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390a24aa2e6101b8b4e2e8e4bf719b10') in 0.010336 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016949 seconds.
+  path: Assets/SAL/S-90_1/DHL_RIR.wav
+  artifactKey: Guid(4f3223e4dc60a9a4a9e61473aa34a431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-90_1/DHL_RIR.wav using Guid(4f3223e4dc60a9a4a9e61473aa34a431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265b827b4aa7b8114b02cfaa04a3c0d6') in 0.010795 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006761 seconds.
+  path: Assets/SAL/S90_1/XM2_RIR.wav
+  artifactKey: Guid(b6044369fd25a2440873bd8025e96d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S90_1/XM2_RIR.wav using Guid(b6044369fd25a2440873bd8025e96d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2540e684eaadfc0671a0e5c2cf120cf') in 0.010440 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006247 seconds.
+  path: Assets/SAL/S60_1/XM3_RIR.wav
+  artifactKey: Guid(7044b460cf96edc46b68e39765480541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S60_1/XM3_RIR.wav using Guid(7044b460cf96edc46b68e39765480541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8bacf0aa5963879af2ba5482f44299') in 0.010078 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011405 seconds.
+  path: Assets/SAL/S30_1/BTELF_RIR.wav
+  artifactKey: Guid(b46badfcdd3fe5343a8442f2e2f78524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S30_1/BTELF_RIR.wav using Guid(b46badfcdd3fe5343a8442f2e2f78524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4060e7a78e877420ea0ba320a584db') in 0.010147 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006526 seconds.
+  path: Assets/SAL/S-30_1/BTELB_RIR.wav
+  artifactKey: Guid(a9e231cb806776f4eb73698011eb6138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-30_1/BTELB_RIR.wav using Guid(a9e231cb806776f4eb73698011eb6138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5a5f55535ac5019c6485bdedf36226') in 0.011273 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006715 seconds.
+  path: Assets/SAL/S30_1/XM4_RIR.wav
+  artifactKey: Guid(8d7b2313ba0dd5d45a686c99d7378b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S30_1/XM4_RIR.wav using Guid(8d7b2313ba0dd5d45a686c99d7378b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e0a93cf090ae43943f0cba9a3c8424') in 0.013086 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013373 seconds.
+  path: Assets/SAL/S90_1/BTELF_RIR.wav
+  artifactKey: Guid(9d3360e9c1677db49bf86c31f2f67db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S90_1/BTELF_RIR.wav using Guid(9d3360e9c1677db49bf86c31f2f67db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcd3865c4fa4e4f0a425fb384e83d9a') in 0.011895 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003855 seconds.
+  path: Assets/Materials/circle.mat
+  artifactKey: Guid(2a68ae299edd4ea49be1f9197ccc7967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/circle.mat using Guid(2a68ae299edd4ea49be1f9197ccc7967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8574a3385b52ad80f94bd66d57a259cb') in 0.065574 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006381 seconds.
+  path: Assets/SAL/S0_1/XM4_RIR.wav
+  artifactKey: Guid(1256334ee6c123647a7e81a5fd35e9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S0_1/XM4_RIR.wav using Guid(1256334ee6c123647a7e81a5fd35e9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c83964e869b149f5328052fda2af3a') in 0.011833 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.031161 seconds.
+  path: Assets/SAL/S90_1/BTERB_RIR.wav
+  artifactKey: Guid(fb051ed2fbdbd2e4ab780b559d1bda61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S90_1/BTERB_RIR.wav using Guid(fb051ed2fbdbd2e4ab780b559d1bda61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da26e3bd4418b979c4fdaf00db520e9b') in 0.011765 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006719 seconds.
+  path: Assets/SAL/S-90_1/BTERF_RIR.wav
+  artifactKey: Guid(39d3e4f7a93173a40b459a28ecff5e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-90_1/BTERF_RIR.wav using Guid(39d3e4f7a93173a40b459a28ecff5e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abafeabff422009b88ace4470b91796') in 0.011610 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006352 seconds.
+  path: Assets/SAL/S45_2/XM3_RIR.wav
+  artifactKey: Guid(bc34c68860938724e91954d4af541b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S45_2/XM3_RIR.wav using Guid(bc34c68860938724e91954d4af541b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701c641b73aa199fcdf9f2865b8a7d8e') in 0.010785 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005942 seconds.
+  path: Assets/SAL/S-90_1/XM3_RIR.wav
+  artifactKey: Guid(f3548ab6677ff3948991040f575ccb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-90_1/XM3_RIR.wav using Guid(f3548ab6677ff3948991040f575ccb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8732677ebb438e47e6937cb016c0ad') in 0.010250 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001856 seconds.
+  path: Assets/SAL/S60_1
+  artifactKey: Guid(6b49f1c4b2c190541855ff90d785d515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S60_1 using Guid(6b49f1c4b2c190541855ff90d785d515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c5965321505e5e2a9df34dcaa96cdd') in 0.007430 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010782 seconds.
+  path: Assets/SAL/S45_2/XM1_RIR.wav
+  artifactKey: Guid(98a1eeca75f9fc84498846c84494d263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S45_2/XM1_RIR.wav using Guid(98a1eeca75f9fc84498846c84494d263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cbe186dde65f94ef037ca8bd749ca3') in 0.012798 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007904 seconds.
+  path: Assets/SAL/S-30_1/DHR_RIR.wav
+  artifactKey: Guid(21bb071ae56626846903273fe0e4d756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-30_1/DHR_RIR.wav using Guid(21bb071ae56626846903273fe0e4d756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b576a030eaad0798b317eeebfd4e6a9') in 0.011889 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007846 seconds.
+  path: Assets/SAL/S-60_1/XM5_RIR.wav
+  artifactKey: Guid(9ac8646eb89affb4487c91d13bdd0909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-60_1/XM5_RIR.wav using Guid(9ac8646eb89affb4487c91d13bdd0909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75eef7d9df8c2da5f86e13ae5bc63d00') in 0.012464 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002164 seconds.
+  path: Assets/SAL/S-90_1
+  artifactKey: Guid(9d58cfb3d959fa84388bf9edee942cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-90_1 using Guid(9d58cfb3d959fa84388bf9edee942cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b64fb7bc0aa279f46384c37e342e625') in 0.008150 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006040 seconds.
+  path: Assets/SAL/S-45_2/BTERF_RIR.wav
+  artifactKey: Guid(81b2034f5efd6274f9d1e4b6c3ff6bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-45_2/BTERF_RIR.wav using Guid(81b2034f5efd6274f9d1e4b6c3ff6bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923fe1ce310819ac4a2247a10fb0fc35') in 0.013458 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018575 seconds.
+  path: Assets/AuralSculptureGraceHighFbx.fbm/SM_Grace_Speaker-01-low-03_DefaultMaterial_Height.png
+  artifactKey: Guid(e5a5d9e6cfb561740a56e72a94621471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AuralSculptureGraceHighFbx.fbm/SM_Grace_Speaker-01-low-03_DefaultMaterial_Height.png using Guid(e5a5d9e6cfb561740a56e72a94621471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9502762c8f5dd0e2fd6f4e00ade828d') in 0.047039 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006800 seconds.
+  path: Assets/SAL/S-60_1/BTELF_RIR.wav
+  artifactKey: Guid(f0badeacace695b47845a14cb21a3855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-60_1/BTELF_RIR.wav using Guid(f0badeacace695b47845a14cb21a3855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc9103e655003e04e32757f82d95cff') in 0.010510 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005579 seconds.
+  path: Assets/SAL/S-90_1/XM1_RIR.wav
+  artifactKey: Guid(e43cc77422d19ae4cb018c58e926d7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-90_1/XM1_RIR.wav using Guid(e43cc77422d19ae4cb018c58e926d7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d5496e21c22c05c6e467d4a4dc8b59') in 0.011094 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002864 seconds.
+  path: Assets/XR/Settings/Oculus Settings.asset
+  artifactKey: Guid(c3f4d4cec5e356343992c08b0564cd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(c3f4d4cec5e356343992c08b0564cd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f14d7a0cf231329d55235abb169078d') in 0.015570 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010971 seconds.
+  path: Assets/SAL/S30_1/XM1_RIR.wav
+  artifactKey: Guid(76a191a47c0620e409d401e5701ca682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S30_1/XM1_RIR.wav using Guid(76a191a47c0620e409d401e5701ca682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e746137317a151745b40da0492336d') in 0.010631 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005823 seconds.
+  path: Assets/SAL/S45_2/XM2_RIR.wav
+  artifactKey: Guid(7de2dd8325d34a64fbdf3035869c1dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S45_2/XM2_RIR.wav using Guid(7de2dd8325d34a64fbdf3035869c1dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844c36f3cf8d1b27e866606137a309c5') in 0.011163 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006445 seconds.
+  path: Assets/SAL/S-90_1/BTELB_RIR.wav
+  artifactKey: Guid(c0b5f2efcb8244048ba807f1f21dd558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-90_1/BTELB_RIR.wav using Guid(c0b5f2efcb8244048ba807f1f21dd558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dab132d4b280f90989e3888b7d1fb81') in 0.011121 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010693 seconds.
+  path: Assets/SAL/S45_2/BTERB_RIR.wav
+  artifactKey: Guid(c0f85087ebba35e429eec3e4bd012a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S45_2/BTERB_RIR.wav using Guid(c0f85087ebba35e429eec3e4bd012a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0477554c5645f540a084b88e6ced65') in 0.013080 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008449 seconds.
+  path: Assets/SAL/S90_1/BTELB_RIR.wav
+  artifactKey: Guid(89aaca6e3ee61de45be2dfa2fd5a9bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S90_1/BTELB_RIR.wav using Guid(89aaca6e3ee61de45be2dfa2fd5a9bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d68e828812a2de5f77e181483dc6d24') in 0.011186 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002928 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a8229c567f70d544b981c2c5a69f8ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(a8229c567f70d544b981c2c5a69f8ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad825a46949a7647bdf8c6a8db3276c') in 0.008794 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007104 seconds.
+  path: Assets/SAL/S0_1/BTERB_RIR.wav
+  artifactKey: Guid(9c5198130eac69345869741698496cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S0_1/BTERB_RIR.wav using Guid(9c5198130eac69345869741698496cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11b0e7048ff29d0d0f61b70155550d1') in 0.011443 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006863 seconds.
+  path: Assets/SAL/S90_1/DHL_RIR.wav
+  artifactKey: Guid(e5b0513b436c9c246822a1869c758f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S90_1/DHL_RIR.wav using Guid(e5b0513b436c9c246822a1869c758f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749d15adb51d48e8411d1fcdb50e38d3') in 0.011875 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007053 seconds.
+  path: Assets/SAL/S90_1/XM5_RIR.wav
+  artifactKey: Guid(2a6635c78a5b90f468ae189b9a563571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S90_1/XM5_RIR.wav using Guid(2a6635c78a5b90f468ae189b9a563571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456e100acf7f59423a0e5b59da272c48') in 0.011927 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006631 seconds.
+  path: Assets/SAL/S90_1/XM4_RIR.wav
+  artifactKey: Guid(0f5ab44a049f6564abbaf159dfee0ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S90_1/XM4_RIR.wav using Guid(0f5ab44a049f6564abbaf159dfee0ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d5a4da5c5832eb242ae67aeb55a4ac') in 0.012388 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002795 seconds.
+  path: Assets/XR
+  artifactKey: Guid(bb56698777f355f4e8a5b1aa12e15d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR using Guid(bb56698777f355f4e8a5b1aa12e15d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e9bf67696e9ddc7b64cc656d0967b7') in 0.007753 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006378 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(09583913b533c2f4e96d5b49ecf6707d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR/Loaders using Guid(09583913b533c2f4e96d5b49ecf6707d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd131e82e6705c599559305d4fc89c32d') in 0.008382 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005857 seconds.
+  path: Assets/SAL/S45_2/BTELF_RIR.wav
+  artifactKey: Guid(f951d0415b03bd643a386ba58da18fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S45_2/BTELF_RIR.wav using Guid(f951d0415b03bd643a386ba58da18fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d3c94978a7b5088830e593187e8995') in 0.011901 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007325 seconds.
+  path: Assets/SAL/S-45_2/DHR_RIR.wav
+  artifactKey: Guid(e1137819395c0a140a6001ab5686354f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-45_2/DHR_RIR.wav using Guid(e1137819395c0a140a6001ab5686354f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5e513270fb62eb6847d3fcca9ab23b') in 0.013834 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006372 seconds.
+  path: Assets/SAL/S-60_1/BTELB_RIR.wav
+  artifactKey: Guid(9cc17984de3ef694e9ee6281d6f3d1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-60_1/BTELB_RIR.wav using Guid(9cc17984de3ef694e9ee6281d6f3d1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cabd155971caea7673a072b5b82304') in 0.012744 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014806 seconds.
+  path: Assets/SAL/S30_1/BTERB_RIR.wav
+  artifactKey: Guid(9e30fce37d3372744b76bcf549c1e80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S30_1/BTERB_RIR.wav using Guid(9e30fce37d3372744b76bcf549c1e80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a54b713495e1a298441d68865394852') in 0.014254 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007904 seconds.
+  path: Assets/SAL/S-90_1/XM4_RIR.wav
+  artifactKey: Guid(7e58a39f26dc7cc45b8766438671d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-90_1/XM4_RIR.wav using Guid(7e58a39f26dc7cc45b8766438671d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262226c00c5f552bba42e48efaa25ba5') in 0.012059 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017502 seconds.
+  path: Assets/SAL/S-60_1/XM2_RIR.wav
+  artifactKey: Guid(55e9441017d19c746b9659f8b6a86db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-60_1/XM2_RIR.wav using Guid(55e9441017d19c746b9659f8b6a86db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ee6c335f9d3035c28e85c6694ca45f') in 0.014068 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007017 seconds.
+  path: Assets/SAL/S-90_1/DHR_RIR.wav
+  artifactKey: Guid(b297cd7e5cd6a4348bbb91f8e27fe7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-90_1/DHR_RIR.wav using Guid(b297cd7e5cd6a4348bbb91f8e27fe7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc697b4a7ef4657ae2a841c52e19dc6a') in 0.010920 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007348 seconds.
+  path: Assets/SAL/S0_1/XM1_RIR.wav
+  artifactKey: Guid(323062cec88ec714ebee0ff42c2c4460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S0_1/XM1_RIR.wav using Guid(323062cec88ec714ebee0ff42c2c4460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1366c90d049a7dd66c94c89c18f385') in 0.012089 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006987 seconds.
+  path: Assets/SAL/S-45_2/BTELB_RIR.wav
+  artifactKey: Guid(7e05d0ef07dfdcc4db07724c3051fa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-45_2/BTELB_RIR.wav using Guid(7e05d0ef07dfdcc4db07724c3051fa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd200f45082443b804ef603c34e8dace0') in 0.011935 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005733 seconds.
+  path: Assets/AuralSculptureGraceHighFbx.fbm
+  artifactKey: Guid(d110de08144d73f46b61abe5b6353251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AuralSculptureGraceHighFbx.fbm using Guid(d110de08144d73f46b61abe5b6353251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fab5c66706b5a50308e7c344f948d9c') in 0.009102 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071057 seconds.
+  path: Assets/AuralSculptureGraceHighFbx.fbm/SM_Grace_Speaker-01-low-03_DefaultMaterial_Normal.png
+  artifactKey: Guid(acf46c89ef23a9d4aae3cf163190cbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AuralSculptureGraceHighFbx.fbm/SM_Grace_Speaker-01-low-03_DefaultMaterial_Normal.png using Guid(acf46c89ef23a9d4aae3cf163190cbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2debbb98b2ec48c5c8a9bde1e80bd944') in 0.014472 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003565 seconds.
+  path: Assets/XR/Loaders/Oculus Loader.asset
+  artifactKey: Guid(4ed0304b410d6ff4c83631e5104604ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR/Loaders/Oculus Loader.asset using Guid(4ed0304b410d6ff4c83631e5104604ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575b4697d98ae9ac0061e396bdee5e0b') in 0.009271 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.032184 seconds.
+  path: Assets/SAL/S45_2/BTERF_RIR.wav
+  artifactKey: Guid(4fdb886537bc1024e9289b1288a53596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S45_2/BTERF_RIR.wav using Guid(4fdb886537bc1024e9289b1288a53596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c25efeb83d85e3ee805a91e8dfbda3') in 0.010011 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006597 seconds.
+  path: Assets/SAL/S-60_1/DHR_RIR.wav
+  artifactKey: Guid(ae3881dd6d6367343bc89ce0d33f3736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-60_1/DHR_RIR.wav using Guid(ae3881dd6d6367343bc89ce0d33f3736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a8cbb39d63b5e6ec0df2fdf6fe64f9') in 0.012518 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015703 seconds.
+  path: Assets/Materials/Picture1.mat
+  artifactKey: Guid(01ed6df9705d30f43af825520696c3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/Picture1.mat using Guid(01ed6df9705d30f43af825520696c3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b694752f30cc0c7c534afc458322e30c') in 0.014711 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011856 seconds.
+  path: Assets/SAL/S-45_2/DHL_RIR.wav
+  artifactKey: Guid(e862eab845cb35a47aa640127401a3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-45_2/DHL_RIR.wav using Guid(e862eab845cb35a47aa640127401a3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3351ba91ec37073c6ab9fdeba31f04ab') in 0.012986 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006933 seconds.
+  path: Assets/SAL/S90_1/XM1_RIR.wav
+  artifactKey: Guid(c216f16f39e4bfb43a7bddd28f61ac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S90_1/XM1_RIR.wav using Guid(c216f16f39e4bfb43a7bddd28f61ac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b33d795244ab6fe6797ad9d297a3caf') in 0.012115 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006572 seconds.
+  path: Assets/SAL/S0_1/BTERF_RIR.wav
+  artifactKey: Guid(b8fe4ea7b07c7a94cbfad63a34ebc4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S0_1/BTERF_RIR.wav using Guid(b8fe4ea7b07c7a94cbfad63a34ebc4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c4e556819d844c757082b0e846c069') in 0.014099 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011109 seconds.
+  path: Assets/SAL/S45_2/BTELB_RIR.wav
+  artifactKey: Guid(11e3eb1b4b2e87b4693e6c41da55970a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S45_2/BTELB_RIR.wav using Guid(11e3eb1b4b2e87b4693e6c41da55970a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4e1c3fceb2613b0a43a412d83ca391') in 0.013096 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002162 seconds.
+  path: Assets/XRI/Settings/Resources
+  artifactKey: Guid(b6e918030c795f049bb588a06a9c85bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XRI/Settings/Resources using Guid(b6e918030c795f049bb588a06a9c85bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf047a367a8419c7965e9c085ab44fb6') in 0.009502 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005934 seconds.
+  path: Assets/SAL/S-45_2/XM3_RIR.wav
+  artifactKey: Guid(6673f3c7f6b184348990cf272e28fec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-45_2/XM3_RIR.wav using Guid(6673f3c7f6b184348990cf272e28fec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37c09e5e08fcede608e116fdcffafbf') in 0.016388 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005941 seconds.
+  path: Assets/SAL/S45_2/XM4_RIR.wav
+  artifactKey: Guid(0de8ea73b77c28645ba3ad7c6839e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S45_2/XM4_RIR.wav using Guid(0de8ea73b77c28645ba3ad7c6839e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8059787033974e680ad6d4db731e75df') in 0.012961 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006667 seconds.
+  path: Assets/SAL/S45_2/DHR_RIR.wav
+  artifactKey: Guid(0d558f1bbbe8799488a380c2b067e730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S45_2/DHR_RIR.wav using Guid(0d558f1bbbe8799488a380c2b067e730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cccd4b00e1ab9a20976256ebcf0f843') in 0.011682 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018090 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(27177f0464ef4934eaf20d059f61e525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(27177f0464ef4934eaf20d059f61e525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1966b99007cbd96174980acd41ad79d7') in 0.014659 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.005722 seconds.
+  path: Assets/SAL/S0_1/XM5_RIR.wav
+  artifactKey: Guid(cd0282fa007efcf42988de2ccd3d2ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S0_1/XM5_RIR.wav using Guid(cd0282fa007efcf42988de2ccd3d2ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec681f93d3a0e363ada84b307dde445') in 0.012365 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006235 seconds.
+  path: Assets/SAL/S0_1/XM3_RIR.wav
+  artifactKey: Guid(414ec76f439d5ee45ae8b2809771c45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S0_1/XM3_RIR.wav using Guid(414ec76f439d5ee45ae8b2809771c45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8afb9fb1d534af425987c2743b04c8f') in 0.011642 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007344 seconds.
+  path: Assets/SAL/S-30_1/XM2_RIR.wav
+  artifactKey: Guid(1ac3b5cccbf1d104ba7440a04c1b3a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-30_1/XM2_RIR.wav using Guid(1ac3b5cccbf1d104ba7440a04c1b3a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8531b2819fd922d90e711a44ef871077') in 0.011749 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022778 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(0a401097368db434b9833f782a7cd742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources using Guid(0a401097368db434b9833f782a7cd742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9e5052ccf4483b0bbe9278131062d1') in 0.002553 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005829 seconds.
+  path: Assets/SAL/S-90_1/XM5_RIR.wav
+  artifactKey: Guid(39feb7d99fffde5428c64e2b3a0d6089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-90_1/XM5_RIR.wav using Guid(39feb7d99fffde5428c64e2b3a0d6089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3d877be290a962c1285fb0d8278c33') in 0.010595 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007169 seconds.
+  path: Assets/SAL/S0_1/BTELF_RIR.wav
+  artifactKey: Guid(7e3d9b23f82bb044ead6f34d8613b7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S0_1/BTELF_RIR.wav using Guid(7e3d9b23f82bb044ead6f34d8613b7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8243b4543b014e8300a635403cc9c2ed') in 0.011300 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005535 seconds.
+  path: Assets/SAL/S-90_1/BTELF_RIR.wav
+  artifactKey: Guid(14d4313c8796c734f99fcc79e7a1988e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-90_1/BTELF_RIR.wav using Guid(14d4313c8796c734f99fcc79e7a1988e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8847c392225a1a2a2394cb08270d07') in 0.014203 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022714 seconds.
+  path: Assets/SAL/S45_2/XM5_RIR.wav
+  artifactKey: Guid(7cc62ad39e90aa345b3dca84bfac8047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S45_2/XM5_RIR.wav using Guid(7cc62ad39e90aa345b3dca84bfac8047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340f53ecf90978ae7bd07fb0108d51d3') in 0.012504 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008287 seconds.
+  path: Assets/XRI
+  artifactKey: Guid(660d8a02fe1cdba44ba4eff1c8b58b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XRI using Guid(660d8a02fe1cdba44ba4eff1c8b58b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282d4b063949f736c7f712dff67b1575') in 0.008788 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006028 seconds.
+  path: Assets/SAL/S-30_1/XM5_RIR.wav
+  artifactKey: Guid(80c205b5a7a3bd5479e18b763aeaa4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-30_1/XM5_RIR.wav using Guid(80c205b5a7a3bd5479e18b763aeaa4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2486ac11c372b26b60461707c4a7c717') in 0.012370 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006836 seconds.
+  path: Assets/SAL/S-45_2/XM1_RIR.wav
+  artifactKey: Guid(bc0c99986ffa2234a8c70ab17a2df406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-45_2/XM1_RIR.wav using Guid(bc0c99986ffa2234a8c70ab17a2df406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0809f516828e68db71229b264239949') in 0.011641 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003249 seconds.
+  path: Assets/Materials/SM_Grace_Speaker-01-low-03_DefaultMaterial_BaseColor.mat
+  artifactKey: Guid(3f45034fbc6ecb04cb9a6e3252dc2813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/SM_Grace_Speaker-01-low-03_DefaultMaterial_BaseColor.mat using Guid(3f45034fbc6ecb04cb9a6e3252dc2813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2568873f9d088a7bf8beefa704ce3cca') in 0.032244 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006155 seconds.
+  path: Assets/SAL/S-45_2/XM5_RIR.wav
+  artifactKey: Guid(42e80266ba7de744baccc10234d4ae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-45_2/XM5_RIR.wav using Guid(42e80266ba7de744baccc10234d4ae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0286b19c15e05a8ccd02755b2a96544') in 0.012653 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006770 seconds.
+  path: Assets/SAL/S0_1/XM2_RIR.wav
+  artifactKey: Guid(d102d2f9b4ed9074f9e625f7a3316ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S0_1/XM2_RIR.wav using Guid(d102d2f9b4ed9074f9e625f7a3316ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b16f1c078e64e07af198ed96dc96d3') in 0.015812 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018847 seconds.
+  path: Assets/SAL/S-30_1/DHL_RIR.wav
+  artifactKey: Guid(0c5c39d79b9255446a0ea1e1030df38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-30_1/DHL_RIR.wav using Guid(0c5c39d79b9255446a0ea1e1030df38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f7b4a5b5f8f2ecdca1f6dcc3e1040d') in 0.012866 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002020 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(7933851a5fd056d438110dffccf58cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials using Guid(7933851a5fd056d438110dffccf58cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc22a085aee1b9279e4100775c88759') in 0.008850 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017325 seconds.
+  path: Assets/SAL/S60_1/XM5_RIR.wav
+  artifactKey: Guid(402d026c786eb6c48a5897ca238d247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S60_1/XM5_RIR.wav using Guid(402d026c786eb6c48a5897ca238d247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f80357f6c7b498a06ad98ba2cc9291') in 0.011056 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002722 seconds.
+  path: Assets/Resources/MetaXRAudioSettings.asset
+  artifactKey: Guid(9e114578e8c8c7a4788a4b596a81902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/MetaXRAudioSettings.asset using Guid(9e114578e8c8c7a4788a4b596a81902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b72b2db45571524cc2d850e6ca5678d') in 0.009431 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004463 seconds.
+  path: Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+  artifactKey: Guid(652a5754292c8884f91f3f38ffe9a43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XRI/Settings/Resources/InteractionLayerSettings.asset using Guid(652a5754292c8884f91f3f38ffe9a43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b0bdf3616c551e4ba65d3d174bb1a3') in 0.010339 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001063 seconds.
+  path: Assets/SAL/S45_2
+  artifactKey: Guid(796a5e2a1a6f12f429027a65894caba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S45_2 using Guid(796a5e2a1a6f12f429027a65894caba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525bb0dc1dd9ebec4d49f05f4af710ce') in 0.008245 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006346 seconds.
+  path: Assets/SAL/S-60_1/BTERB_RIR.wav
+  artifactKey: Guid(16eae7386640e55438b1d4eb2b161748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-60_1/BTERB_RIR.wav using Guid(16eae7386640e55438b1d4eb2b161748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995e0c544f2a1dbfc0e2d7fce6138f30') in 0.011725 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011592 seconds.
+  path: Assets/SAL/S30_1/DHL_RIR.wav
+  artifactKey: Guid(db99f7dc541e1a6468f1379f5c453aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S30_1/DHL_RIR.wav using Guid(db99f7dc541e1a6468f1379f5c453aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2adafcbde514c635e7216d612ad57a4') in 0.013204 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007212 seconds.
+  path: Assets/SAL/S30_1/XM3_RIR.wav
+  artifactKey: Guid(555ccdb543347ea43a28ad30fc9954c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S30_1/XM3_RIR.wav using Guid(555ccdb543347ea43a28ad30fc9954c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d7e80df48abc46a05040e5d54a5ca3') in 0.013506 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006559 seconds.
+  path: Assets/SAL/S-60_1/BTERF_RIR.wav
+  artifactKey: Guid(f3d5ac2419defbb47a979b1a9094d63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-60_1/BTERF_RIR.wav using Guid(f3d5ac2419defbb47a979b1a9094d63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f93a62080a916a1a58b0b1b921ecbe3') in 0.011870 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003123 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0342dfbe13a983d86dd5a3dc73ba5ca') in 0.009066 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002363 seconds.
+  path: Assets/XRI/Settings
+  artifactKey: Guid(dd1d3f550dd797340bea4abc0e2581c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XRI/Settings using Guid(dd1d3f550dd797340bea4abc0e2581c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f7e4e40f0e2217ef21e4b2d9785683') in 0.009018 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005703 seconds.
+  path: Assets/SAL/S-60_1/XM1_RIR.wav
+  artifactKey: Guid(0c3e9a1d4abd5414dbc7b38db2f49912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-60_1/XM1_RIR.wav using Guid(0c3e9a1d4abd5414dbc7b38db2f49912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d493a8c3ed1d4c9b7c6775d04d7c384') in 0.011521 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002971 seconds.
+  path: Assets/SAL/S-30_1
+  artifactKey: Guid(0804d229b8c7a2843973d80192ed1a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-30_1 using Guid(0804d229b8c7a2843973d80192ed1a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff4ee306bf27560f9ac0a2a20c4a6ae') in 0.007568 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002028 seconds.
+  path: Assets/SAL/S-60_1
+  artifactKey: Guid(a71124489c5c9f94c950ebbda075cc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-60_1 using Guid(a71124489c5c9f94c950ebbda075cc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fae31b7d079b0a125ea033f7ab60ed7') in 0.007320 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001690 seconds.
+  path: Assets/SAL/S0_1
+  artifactKey: Guid(42a63f854ea092842a333b730a8e2efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S0_1 using Guid(42a63f854ea092842a333b730a8e2efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03796e0b9b81c9786e88d6b8bfad7396') in 0.008164 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001770 seconds.
+  path: Assets/XR/Settings
+  artifactKey: Guid(4009887d99e72464b8d001c40702c658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR/Settings using Guid(4009887d99e72464b8d001c40702c658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c53237de0038310092dfbb8bf68fe9') in 0.002224 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006282 seconds.
+  path: Assets/SAL/S-30_1/BTELF_RIR.wav
+  artifactKey: Guid(f7cbd475ef9b45e418e39b0c2e395873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-30_1/BTELF_RIR.wav using Guid(f7cbd475ef9b45e418e39b0c2e395873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb050a43c56ef49d1046fab5a158eba7') in 0.011714 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005645 seconds.
+  path: Assets/SAL/S-30_1/XM3_RIR.wav
+  artifactKey: Guid(8d3a34fb3b20ae94084c8325f1b46a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-30_1/XM3_RIR.wav using Guid(8d3a34fb3b20ae94084c8325f1b46a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1977a079624db2c4a0e6dc77ecf4ac80') in 0.012338 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005586 seconds.
+  path: Assets/SAL/S60_1/BTELB_RIR.wav
+  artifactKey: Guid(494caab8864818d4b838380e85708b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S60_1/BTELB_RIR.wav using Guid(494caab8864818d4b838380e85708b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b12f622d1c03f514797b291c0fad2b') in 0.011606 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006130 seconds.
+  path: Assets/SAL/S0_1/DHR_RIR.wav
+  artifactKey: Guid(b1a7d53bcc8264a4397d721829684f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S0_1/DHR_RIR.wav using Guid(b1a7d53bcc8264a4397d721829684f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fc79a1a425294d19e8e9ad22128796') in 0.010903 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003407 seconds.
+  path: Assets/XRI/Settings/XRInteractionEditorSettings.asset
+  artifactKey: Guid(6727e389dfe845340a2dfdde509d974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XRI/Settings/XRInteractionEditorSettings.asset using Guid(6727e389dfe845340a2dfdde509d974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c4d1c918d7ea44f99df9d6516c9945') in 0.009124 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005554 seconds.
+  path: Assets/SAL/S60_1/DHR_RIR.wav
+  artifactKey: Guid(8097343587cf3754cbb336e2a94182c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S60_1/DHR_RIR.wav using Guid(8097343587cf3754cbb336e2a94182c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99788bed9a345ae3781477d6e938a68') in 0.010809 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005653 seconds.
+  path: Assets/SAL/S-60_1/XM3_RIR.wav
+  artifactKey: Guid(a953b19f7df742e4491f6d9686d395db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-60_1/XM3_RIR.wav using Guid(a953b19f7df742e4491f6d9686d395db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f6e1165de4a5784b956c3c96f44d05') in 0.011860 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007436 seconds.
+  path: Assets/SAL/S-45_2/XM2_RIR.wav
+  artifactKey: Guid(7ffecb79731975c46bbe9144fb089860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-45_2/XM2_RIR.wav using Guid(7ffecb79731975c46bbe9144fb089860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f11280632dacbd2ec49f51716c30bfc') in 0.012329 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.028292 seconds.
+  path: Assets/AuralSculptureGraceHighFbx.fbm/SM_Grace_Speaker-01-low-03_DefaultMaterial_BaseColor.png
+  artifactKey: Guid(f00a02371ecada24abb4fe9edbdf745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AuralSculptureGraceHighFbx.fbm/SM_Grace_Speaker-01-low-03_DefaultMaterial_BaseColor.png using Guid(f00a02371ecada24abb4fe9edbdf745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1e128876e9061a7145ca412dfce7e7') in 0.012166 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006060 seconds.
+  path: Assets/SAL/S-30_1/BTERF_RIR.wav
+  artifactKey: Guid(be14e27b1c2b28c47a8ea8594dc9d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-30_1/BTERF_RIR.wav using Guid(be14e27b1c2b28c47a8ea8594dc9d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce9eb061a0d161c559fb22103e35f74') in 0.010458 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005790 seconds.
+  path: Assets/SAL/S90_1/DHR_RIR.wav
+  artifactKey: Guid(9a01d265158469f4bafce7d57ea8dfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S90_1/DHR_RIR.wav using Guid(9a01d265158469f4bafce7d57ea8dfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85858fca0dae9d12346fe863eb53a163') in 0.012188 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.103123 seconds.
+  path: Assets/SAL/S-30_1/XM1_RIR.wav
+  artifactKey: Guid(a621de36bf6899845a1a8ae027441a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-30_1/XM1_RIR.wav using Guid(a621de36bf6899845a1a8ae027441a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be360c3d7a9be99f52d14704ebd18de0') in 0.011200 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001921 seconds.
+  path: Assets/SAL/S30_1
+  artifactKey: Guid(862e5b7ddbc4b53418ef3d6538200560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S30_1 using Guid(862e5b7ddbc4b53418ef3d6538200560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992f5fd44b83e4d5f1d70cec351a84dc') in 0.007314 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005479 seconds.
+  path: Assets/SAL/S60_1/XM1_RIR.wav
+  artifactKey: Guid(ac45f219f4c94b3428c6f8f771384d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S60_1/XM1_RIR.wav using Guid(ac45f219f4c94b3428c6f8f771384d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcb8e37e4b1f575f12ccf346a6a00a2') in 0.010726 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005637 seconds.
+  path: Assets/SAL/S30_1/BTERF_RIR.wav
+  artifactKey: Guid(0fcae52b8e2d5e848a608de0316b6c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S30_1/BTERF_RIR.wav using Guid(0fcae52b8e2d5e848a608de0316b6c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f42fb5180ef89a8d1c3459c6d06f5a') in 0.010805 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005945 seconds.
+  path: Assets/SAL/S30_1/BTELB_RIR.wav
+  artifactKey: Guid(5a17376d94a94df47bb3e5aa463e8d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S30_1/BTELB_RIR.wav using Guid(5a17376d94a94df47bb3e5aa463e8d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec54b66f4d593a23fddfd2e31642a29') in 0.010623 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007344 seconds.
+  path: Assets/SAL/S0_1/BTELB_RIR.wav
+  artifactKey: Guid(0403ed689529b0d46aeacad7ea885296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S0_1/BTELB_RIR.wav using Guid(0403ed689529b0d46aeacad7ea885296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35047a90d32d7335bc699864cff1c1f1') in 0.012023 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012809 seconds.
+  path: Assets/SAL/S-30_1/XM4_RIR.wav
+  artifactKey: Guid(46ca467060b5914419799aa5b1a8d9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S-30_1/XM4_RIR.wav using Guid(46ca467060b5914419799aa5b1a8d9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d2133cb5ca4051389e0ce7da2aa435') in 0.012937 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006119 seconds.
+  path: Assets/SAL/S30_1/XM2_RIR.wav
+  artifactKey: Guid(173675118d83ddb47bf660229e61340a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S30_1/XM2_RIR.wav using Guid(173675118d83ddb47bf660229e61340a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52114dc14e2fabee7635287cc1f1116c') in 0.012012 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006380 seconds.
+  path: Assets/SAL/S60_1/BTERF_RIR.wav
+  artifactKey: Guid(f89616c135fe504459dfde6110ae8874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S60_1/BTERF_RIR.wav using Guid(f89616c135fe504459dfde6110ae8874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0462b6dd4149ed78b25749660fdc33') in 0.012053 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006414 seconds.
+  path: Assets/SAL/S30_1/DHR_RIR.wav
+  artifactKey: Guid(fcf2862cfb258634cb75e5fbff56ea72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S30_1/DHR_RIR.wav using Guid(fcf2862cfb258634cb75e5fbff56ea72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de08fc57365bfa6b48cd047ce53e72e3') in 0.011771 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006196 seconds.
+  path: Assets/SAL/S90_1/BTERF_RIR.wav
+  artifactKey: Guid(e0b9c690a85e5514c9a644d17ec0c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SAL/S90_1/BTERF_RIR.wav using Guid(e0b9c690a85e5514c9a644d17ec0c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43001570702b5e28998d4466d877b3e0') in 0.012389 seconds 
+Number of asset objects unloaded after import = 2
